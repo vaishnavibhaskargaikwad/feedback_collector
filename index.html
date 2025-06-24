@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>
+            feedback-collector
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2>
+            Student feedback collector
+        </h2>
+        <form action="/backend/connection.php" method="post">
+            name:<input type="text" name="name" placeholder="name" required><br>
+            email:<input type="text" name="email" placeholder="email" required><br>
+            feedback:<br>
+            <textarea type="text" name="feedback" placeholder="feedback" rows="3" required></textarea><br>
+            <button type="submit">submit feedback</button>
+        </form>
+    </body>
+</html>
